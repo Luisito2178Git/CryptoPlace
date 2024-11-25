@@ -14,7 +14,7 @@ const Blog = () => {
         <br />
         Thaks for look this project i really appreciate, so i have a lot of things to learn in the future and i continue this path for web developer
         <br />
-        You can check coinGecko API in the next link: <a href="https://www.coingecko.com">CoinGecko</a>
+        You can check coinGecko API in the next link: <a href="https://www.coingecko.com" target='_blank'>CoinGecko</a>
       </p>
       <img src={img} alt="" />
     </div>
