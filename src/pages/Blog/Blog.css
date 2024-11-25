@@ -1,0 +1,32 @@
+.blog{
+  margin: 0  auto;
+  width: 60%;
+  margin-bottom: 20px;
+}
+.blog h1{
+  margin: 20px 0;
+  text-align: center;
+}
+.blog p{
+  margin: 20px 0;
+  line-height: 1.7;
+}
+.blog img{
+  margin: 0 auto;
+  display: block;
+}
+.images{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0;
+  align-items: center;
+}
+.images img{
+  width: 200px;
+}
+@media (max-width: 768px) {
+  .blog{
+    width: 80%;
+  }
+}
