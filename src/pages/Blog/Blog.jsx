@@ -1,7 +1,6 @@
 import React from 'react'
 import './Blog.css'
 import img from '../../assets/logo.png'
-import img2 from '../../assets/coingecko.png'
 import Menu from '../../components/Menu/Menu'
 
 const Blog = () => {
@@ -15,12 +14,9 @@ const Blog = () => {
         <br />
         Thaks for look this project i really appreciate, so i have a lot of things to learn in the future and i continue this path for web developer
         <br />
-        You can check coinGecko API in the image below
+        You can check coinGecko API in the next link: <a href="https://www.coingecko.com">CoinGecko</a>
       </p>
-      <div className='images'>
       <img src={img} alt="" />
-      <a href="https://www.coingecko.com/" target='_blank'><img className='img' src={img2} alt="" /></a>
-      </div>
     </div>
   )
 }
